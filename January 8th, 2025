@@ -3,3 +3,27 @@ January 8th, 2025
 What is a memory leak?
 	- Memory that is allocated but cannot be found
 		- the system has no reference to where the memory is
+
+
+Functions: 
+	Reduction in Duplication
+		(Factoring out commonalities)
+	Abstraction
+
+
+		x = abs(17)
+
+		main()
+			SetupSecrets()
+			ConnectDatabase()
+			PerformValidations()
+			GetMainData()
+			PrintResult()
+			CloseConnections()
+
+
+typedeef struct Student{
+	char * firstname;
+	int year_of_graduation;
+}
+
