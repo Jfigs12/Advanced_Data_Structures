@@ -1,0 +1,5 @@
+January 8th, 2025
+
+What is a memory leak?
+	- Memory that is allocated but cannot be found
+		- the system has no reference to where the memory is
